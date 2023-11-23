@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="466.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lector.Controller">
+   <children>
+      <Button fx:id="btnSalir" layoutX="211.0" layoutY="435.0" mnemonicParsing="false" onMouseClicked="#btnSalirOnMouseClicked" prefHeight="27.0" prefWidth="300.0" text="Salir" />
+      <Button fx:id="btnIniciar" layoutX="211.0" layoutY="374.0" mnemonicParsing="false" onMouseClicked="#btnIniciarOnMouseClicked" prefHeight="27.0" prefWidth="300.0" text="Iniciar" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="410.0" layoutX="10.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="410.0" layoutX="110.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Label layoutX="14.0" layoutY="20.0" text="Lector">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="20.0" text="Escritor">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="320.0" layoutX="215.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Label layoutX="215.0" layoutY="29.0" text="Recurso">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnDetener" layoutX="211.0" layoutY="404.0" mnemonicParsing="false" onMouseClicked="#btnDetenerOnMouseClicked" prefHeight="27.0" prefWidth="300.0" text="Detener" />
+   </children>
+</AnchorPane>
